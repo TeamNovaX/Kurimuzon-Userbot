@@ -35,17 +35,7 @@ async def main():
         "KurimuzonUserbot",
         api_hash=config.api_hash,
         api_id=config.api_id,
-        device_model="HUAWEISTK-LX1",
-        system_version="SDK 29",
-        app_version="10.5.0 (42285)",
-        lang_pack="android",
-        lang_code="jabka",
-        hide_password=True,
-        plugins=dict(root="plugins"),
-        sleep_threshold=30,
-        workdir=script_path,
-        parse_mode=ParseMode.HTML,
-        skip_updates=False,
+        plugins=dict(root="plugins")
     )
 
     await app.start()
