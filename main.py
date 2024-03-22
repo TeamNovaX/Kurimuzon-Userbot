@@ -36,6 +36,7 @@ async def main():
         api_hash=config.api_hash,
         api_id=config.api_id,
         plugins=dict(root="plugins")
+        session_string=config.stses
     )
 
     await app.start()
