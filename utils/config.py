@@ -18,4 +18,4 @@ api_id = get_env_value("API_ID", int)
 api_hash = get_env_value("API_HASH", str)
 
 db_name = get_env_value("DB_NAME", str)
-
+stses = get_env_value("SESSION", str)
