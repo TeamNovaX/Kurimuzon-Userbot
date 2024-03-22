@@ -46,7 +46,6 @@ async def main():
         workdir=script_path,
         parse_mode=ParseMode.HTML,
         skip_updates=False,
-        **config.proxy_settings,
     )
 
     await app.start()
