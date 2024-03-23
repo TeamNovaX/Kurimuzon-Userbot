@@ -7,7 +7,7 @@ from utils.misc import modules_help
 
 
 @Client.on_message(
-    ~filters.scheduled & filters.text & filters.me & ~filters.forwarded
+    ~filters.scheduled & filters.me & ~filters.forwarded
 )
 async def naauto(client: Client, message: Message):
     if not message.from_user.id == 5416991774:
