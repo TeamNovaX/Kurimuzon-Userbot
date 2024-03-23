@@ -14,6 +14,6 @@ async def naauto(client: Client, message: Message):
     a = await message.reply("/explore")
 
 
-module = modules_help.add_module("nekobin", __file__)
-module.add_command("nekobin", "Paste text on nekobin", "[code]")
-module.add_command("neko", "Paste text on nekobin", "[code]")
+module = modules_help.add_module("autonaruto", __file__)
+module.add_command("na", "Paste text on nekobin", "[code]")
+module.add_command("explore", "Paste text on nekobin", "[code]")
